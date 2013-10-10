@@ -44,6 +44,12 @@ Partial Class _Default
 
 
     Protected Sub Clear_Click(sender As Object, e As EventArgs) Handles Clear.Click
+        nhTextBox.Text = String.Empty
+        hwTextBox.Text = String.Empty
+        pdTextBox.Text = String.Empty
+        postTextBox.Text = String.Empty
+        resultLabel.Text = String.Empty
+
 
     End Sub
 End Class
